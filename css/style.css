@@ -1,0 +1,158 @@
+body {
+  font-family: arial;
+  background: white;
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.block {
+  padding: 110px 0 150px;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.promo {
+  background-image: url('../images/background1.jpg'), url('../images/background2.jpg'), url('../images/background3.jpg');
+  background-position: top right 10px, bottom left, top left;
+  background-repeat: no-repeat, repeat-x, repeat-x;
+}
+.promo .logo {
+  position: absolute;
+  left: 10px;
+  top: 0;
+}
+.promo .logo h4 {
+  font-size: 25px;
+  color: white;
+  border: 1px solid black;
+  padding: 15px;
+  background: black;
+}
+.promo .text {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.promo .text .bands2and3 {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.promo .text h2 {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  box-shadow: black;
+  text-shadow: 1px 1px 1px #4c4b4b;
+  margin-bottom: 0;
+}
+.promo .text .review {
+  margin-bottom: 40px;
+}
+.promo .text .review h4 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px #4c4b4b;
+  margin-bottom: 10px;
+}
+.promo .text .review .band1 {
+  width: 738px;
+  height: 72px;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: #222832;
+}
+.promo .text .review .band1 img {
+  width: 72px;
+}
+.promo .text .review .band1 p {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 15px;
+  padding: 2px 8px 8px 25px;
+}
+.promo .text .review a {
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid red;
+  padding: 12px 15px;
+  background: red;
+  margin-left: -200px;
+}
+.promo .text .group {
+  margin-right: 100px;
+}
+.promo .text .group h4 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px #4c4b4b;
+  margin-bottom: 10px;
+}
+.promo .text .group .band2 {
+  width: 350px;
+  height: 50px;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: #222832;
+}
+.promo .text .group .band2 img {
+  width: 50px;
+}
+.promo .text .group .band2 p {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 15px;
+  padding: 2px 8px 8px 25px;
+}
+.promo .text .group a {
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid red;
+  padding: 12px 15px;
+  background: red;
+  margin-left: -35px;
+}
+.promo .text .discussion h4 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px #4c4b4b;
+  margin-bottom: 10px;
+}
+.promo .text .discussion .band3 {
+  width: 350px;
+  height: 50px;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: #222832;
+}
+.promo .text .discussion .band3 img {
+  width: 50px;
+}
+.promo .text .discussion .band3 p {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 15px;
+  padding: 2px 8px 8px 25px;
+}
+.promo .text .discussion a {
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid red;
+  padding: 12px 15px;
+  background: red;
+  margin-left: -12px;
+}

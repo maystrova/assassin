@@ -115,3 +115,56 @@ img {
 .promo .text .review .box .readmore:hover {
   background-color: #fa0404;
 }
+.main .menu {
+  float: left;
+  padding: 30px 150px 0;
+  width: 100%;
+  border-bottom: 2px solid #D5D5D5;
+}
+.main .menu .list {
+  float: left;
+}
+.main .menu .list ul {
+  margin: 0;
+  padding: 0 100px 0 0px;
+  list-style: none;
+  font-size: 15px;
+}
+.main .menu .list ul li {
+  display: inline-block;
+}
+.main .menu .list ul li a {
+  text-decoration: none;
+  color: #545050;
+  text-transform: uppercase;
+  padding: 30px 30px 15px 30px;
+}
+.main .menu .list ul li a:hover {
+  border-bottom: 2px solid red;
+  color: red;
+}
+.main .menu input {
+  float: left;
+}
+.main .menu .login {
+  float: right;
+}
+.main .menu .login ul {
+  margin: 0;
+  list-style: none;
+  font-size: 15px;
+  padding: 0 20px 20px 0px;
+}
+.main .menu .login ul li {
+  display: inline-block;
+}
+.main .menu .login ul li a {
+  text-decoration: none;
+  color: #545050;
+  text-transform: uppercase;
+  padding: 30px 30px 15px 30px;
+}
+.main .menu .login ul li a:hover {
+  border-bottom: 2px solid red;
+  color: red;
+}

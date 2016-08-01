@@ -115,11 +115,15 @@ img {
 .promo .text .review .box .readmore:hover {
   background-color: #fa0404;
 }
+.main {
+  background: #EAEAEA;
+}
 .main .menu {
   float: left;
   padding: 30px 150px 0;
   width: 100%;
   border-bottom: 2px solid #D5D5D5;
+  margin-bottom: 50px;
 }
 .main .menu .list {
   float: left;
@@ -135,7 +139,7 @@ img {
 }
 .main .menu .list ul li a {
   text-decoration: none;
-  color: #545050;
+  color: #848282;
   text-transform: uppercase;
   padding: 30px 30px 15px 30px;
 }
@@ -160,11 +164,130 @@ img {
 }
 .main .menu .login ul li a {
   text-decoration: none;
-  color: #545050;
+  color: #848282;
   text-transform: uppercase;
   padding: 30px 30px 15px 30px;
 }
 .main .menu .login ul li a:hover {
+  border-bottom: 2px solid red;
+  color: red;
+}
+.last {
+  display: inline-block;
+}
+.last .videos {
+  max-width: 55%;
+  float: left;
+}
+.last .videos h4 {
+  float: left;
+  margin-bottom: 10px;
+  color: #848282;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.last .videos a {
+  float: right;
+  text-transform: uppercase;
+  color: red;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 22px;
+}
+.last .videos a:hover {
+  text-decoration: underline;
+}
+.last .blogs {
+  max-width: 40%;
+  float: right;
+}
+.last .blogs h4 {
+  float: left;
+  margin-bottom: 10px;
+  color: #848282;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.last .blogs a {
+  float: right;
+  text-transform: uppercase;
+  color: red;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 22px;
+}
+.last .blogs a:hover {
+  text-decoration: underline;
+}
+.last .blogs .box {
+  background-color: #2C3542;
+  position: relative;
+  margin: 65px 0px -27px 0;
+}
+.last .blogs i.icon {
+  width: 80px;
+  height: 80px;
+  display: block;
+  float: left;
+}
+.last .blogs .textblock {
+  float: left;
+  color: white;
+  padding: 25px 15px;
+  max-width: 80%;
+  padding: 0 20px 10px 15px;
+}
+.last .blogs .textblock p {
+  white-space: nowrap;
+  font-size: 14px;
+}
+.last .blogs .readmore {
+  background-color: #FA2D04;
+  display: inline-block;
+  height: 50px;
+  min-width: 50px;
+  line-height: 50px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 30px;
+  position: absolute;
+  right: -25px;
+  bottom: -25px;
+  text-decoration: none;
+}
+.last .blogs .readmore:hover {
+  background-color: #fa0404;
+}
+.downmenu {
+  float: left;
+  padding: 30px 0px 15px;
+  width: 55%;
+  border-bottom: 2px solid #D5D5D5;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.downmenu .list {
+  float: left;
+}
+.downmenu .list ul {
+  margin: 0;
+  padding: 0 100px 0 0px;
+  list-style: none;
+  font-size: 15px;
+  display: inline;
+}
+.downmenu .list ul li {
+  display: inline-block;
+}
+.downmenu .list ul li a {
+  text-decoration: none;
+  color: #848282;
+  text-transform: uppercase;
+  padding: 30px 30px 15px 30px;
+}
+.downmenu .list ul li a:hover {
   border-bottom: 2px solid red;
   color: red;
 }
